@@ -7,7 +7,9 @@
 .container{
     width: 100%;
     min-height: 100vh;
-    background: linear-gradient(135deg,#156c77,#08095f);
+    /* background: linear-gradient(135deg,#156c77,#08095f); */
+    background-image: url('Images/todo1.jpg');
+    background-size: cover;
     padding: 10px;
     display: flex;
     align-items: center;
@@ -51,7 +53,7 @@ button{
     border: none;
     outline: none;
     padding: 16px 50px;
-    background: #ff5945;
+    background:#D397F8;
     color: #fff;
     font-size: 16px;
     cursor: pointer;
@@ -78,11 +80,11 @@ ul li::before{
     left: 0%;
 }
 ul li.checked{
-    color: #555;
+    color: #D397F8;
     text-decoration: line-through;
 }
 ul li.checked::before{
-    background-image: url(Images/checked.png);
+    background-image: url(Images/check.jpg);
 }
 ul li span{
     position: absolute;
